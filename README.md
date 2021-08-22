@@ -8,3 +8,7 @@ Anki là phần mềm Flashcard để học từ vựng (hoặc bất cứ thứ
 <a href="https://i.imgur.com/vc6yCUb.png"><img src="https://i.imgur.com/vc6yCUbm.jpg"></a>
 <a href="https://i.imgur.com/f3NpYA1.png"><img src="https://i.imgur.com/f3NpYA1m.jpg"></a>
 
+<h4>Library</h4>
+<a href="https://github.com/kerrickstaley/genanki">genanki</a><br>
+<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-back-and-forth">Beautiful Soup</a>
+
