@@ -1,4 +1,4 @@
-# crawlJtest
+# Website to Anki Decks
 
 Project cào bộ <b>3000 Từ vựng JLPT N1</b> trên website https://jtest.net/tu-vung-n1 về Anki Deck (tạo flashcard)
 
