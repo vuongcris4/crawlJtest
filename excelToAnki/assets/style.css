@@ -1,0 +1,33 @@
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.search {
+	font-size: 13px;
+	padding-bottom: 5px;
+	margin: 10px;
+	
+}
+
+#word {
+    color: #dc3545!important;
+    font-size: 150%;
+}
+
+#furigana {
+	color: #4ad2ff;
+	padding-top: 7px;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.meaning{
+	font-size: 80%;
+	color:#b5b5b5
+}
+
+

@@ -1,0 +1,33 @@
+<div id="word">{{Word}}</div>
+
+<div id="furigana">{{Furigana}}</div>
+
+
+
+<br>
+<div id="example">{{Example}}</div>
+
+<audio controls id="back-audio">
+  <source src="{{Audio}}" type="audio/mp3">
+</audio>
+<script>
+ var audio = document.getElementById("back-audio");
+ audio.play();
+</script>
+
+<div class="search">
+  <a href="http://images.google.com/search?tbm=isch&q={{Word}}">Image Kanji</a> //
+  <a href="http://images.google.com/search?tbm=isch&q={{Furigana}}">Image Furigana</a>
+</div>
+
+
+    <script>
+        var word = document.getElementById("word").innerHTML;
+        var furigana = document.getElementById("furigana").innerHTML;
+
+        var example = document.getElementById("example");
+
+        example.innerHTML = example.innerHTML.replace(word, word.fontcolor('#dc3545'));
+		example.innerHTML = example.innerHTML.replace(furigana, furigana.fontcolor('#4ad2ff'));
+    </script>
+
