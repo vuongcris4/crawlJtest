@@ -25,15 +25,13 @@
 
     <script>
         var word = document.getElementById("word").innerHTML;
-        var furigana = document.getElementById("furigana").innerHTML;
-
         var example = document.getElementById("example");
-
         example.innerHTML = example.innerHTML.replace(word, word.fontcolor('#dc3545'));
-		example.innerHTML = example.innerHTML.replace(furigana, furigana.fontcolor('#4ad2ff'));
+		
+        var furigana = document.getElementById("furigana").innerHTML;
+		if (furigana!=" "){
+		example.innerHTML = example.innerHTML.replace(furigana, furigana.fontcolor('#4ad2ff'));}
     </script>
-
-
 
 
 

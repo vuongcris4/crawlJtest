@@ -1,6 +1,0 @@
-Word
-Furigana
-MeaningOfWord
-Example
-MeaningOfExample
-Audio
